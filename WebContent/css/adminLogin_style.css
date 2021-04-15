@@ -1,0 +1,43 @@
+/* set entire body that is webpage */
+body{
+	background: url(../images/login_bg.jpg);
+  	background-size: cover;
+  	background-position: center;
+	padding-top: 25vh;	
+}
+
+/* set form background colour*/
+form{
+	background: #fff;
+}
+
+/* set padding and size of the form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+
+
+.form-control{
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: inset 0 1px 1px #fff, 0 0 4px #00008B; 	
+}
+
+.form-control:focus {
+  border-color: #ff8c00;
+  box-shadow: inset 0 1px 1px #ff8c00, 0 0 2px #ff8c00;
+}
+
+.btn-primary {
+    background-color: #00008B !important;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff8c00 !important;
+    color: #fff;
+    border: none;
+}
+
+
