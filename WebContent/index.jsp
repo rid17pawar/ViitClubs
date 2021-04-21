@@ -159,7 +159,7 @@
 					      			<p class="m-4 text-lowercase">
 					      				<%=clubs.get(cardArrayListIndex).getClubvision().substring(0, 30)+"..."%>	
 					      			</p>
-					      			<h1 class="text-capitalize"><%=clubs.get(cardArrayListIndex).getClubname()+", "+i+", "+j %></h1>
+					      			<h1 class="text-capitalize"><%=clubs.get(cardArrayListIndex).getClubname() %></h1>
 					      			<h2 class="text-uppercase"><%=clubs.get(cardArrayListIndex).getClubacronym()%></h2>
 					      		</div>
 					      	</div>
