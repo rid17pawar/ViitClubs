@@ -43,7 +43,7 @@ public class CreateClubController extends HttpServlet
 			else
 			{
 				//File imageFile= new File("/images/defaultClubIcon.png");
-				istream= getServletContext().getResourceAsStream("/images/defaultClubIcon.png");
+				istream= getServletContext().getResourceAsStream("/images/defaultClubIcon.jpg");
 				ConnectionDao.logActivity("CreateClubController: "+getServletContext());
 			}
 			

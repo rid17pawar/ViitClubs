@@ -26,25 +26,37 @@
 
 <!-- navbar -->	
 
-  <nav class="navbar navbar-inverse navbar-static-top custom-navbar" role="navigation">
-        <div class="navbar-header">
-           <a class="navbar-brand" rel="home" href="showadmindashboard" title="Help"> Dashboard </a>
-        </div>
-        
-        <!-- Non-collapsing right-side icons -->
-        <ul class="nav navbar-nav navbar-right">
-           <li>
-           	 <%
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		 <div class="container text-uppercase p-2">
+		  <a class="navbar-brand font-weight-bold text-white" href="#">Admin Panel</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto text-uppercase">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="showadmindashboard">Dashboard <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="showcustomerfeedbacks">Feedbacks</a>
+		      </li> 
+		      <li class="nav-item">
+		        <a class="nav-link" href="homepage">Life @VIIT</a>
+		      </li>   
+		      <li class="nav-item">
+		      	<%
            	    if(session.getAttribute("username")==null){ response.sendRedirect("adminlogin"); }
-           	 %>
-           	    <span>Hello, <%= session.getAttribute("username") %></span>&nbsp;
-             <a href="adminlogin" class="fa fa-sign-out fa-lg" aria-hidden="true"></a>
-           </li>
-        </ul>
-  </nav>
+           		 %>
+		        <a class="nav-link" href="adminlogin">Hello,<%= session.getAttribute("username") %>&nbsp;<i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+		      </li> 
+		    </ul>
+		  </div>
+		 </div>
+	</nav>
+
 
 	<div class="container">
-
 		<% if(request.getAttribute("action")!=null){ %>
 <!-- Toast to display operations done -->	
 	
@@ -71,8 +83,8 @@
 			<article>
 				<img src="./showicon?id=<%=club.getClubid()%>">
 				<div class="text">
-					<h3> <%=club.getClubacronym() %> </h3>
-					<p> <%=club.getClubname() %> </p>
+					<h3 class="text-uppercase"> <%=club.getClubacronym() %> </h3>
+					<p class="text-capitalize"> <%=club.getClubname() %> </p>
 					<a href="#"><button class="view" value="<%=club.getClubid() %>">View</button></a>
 				</div>
 			</article>
@@ -101,21 +113,23 @@
 						</div>
 					  </div>  
 					  <div class="form-group row">
-					    <label style="font-weight: bold;" for="colFormLabelLg" class="col-sm-2 col-form-label">Acronym:</label>
-					    <div class="col-sm-10">
+					    <label style="font-weight: bold;" for="colFormLabelLg" class="col-sm-2 col-form-label ">Acronym:</label>
+					    <div class="col-sm-10 text-uppercase">
 					      <p><%=club.getClubacronym() %></p>
 					    </div>
 					  </div>
 					  <div class="form-group row">
-					    <label style="font-weight: bold;" for="colFormLabelLg" class="col-sm-2 col-form-label">Name:</label>
-					    <div class="col-sm-10">
+					    <label style="font-weight: bold;" for="colFormLabelLg" class="col-sm-2 col-form-label ">Name:</label>
+					    <div class="col-sm-10 text-capitalize">
 					      <p><%=club.getClubname() %></p>
 					    </div>
 					  </div>
 					  <div class="form-group row">
 					    <label style="font-weight: bold;" for="colFormLabel" class="col-sm-2 col-form-label">Description:</label>
 					    <div class="col-sm-10">
-					      <p><%=club.getClubdescription() %></p>
+					      <p>
+	  							<% if(club.getClubdescription().equals("")){ out.print("Not Available"); }else{ out.print(club.getClubdescription()); }  %>
+	  						</p>
 					    </div>
 					  </div>
 					  
@@ -123,51 +137,79 @@
 					  <div class="form-group row">
 					    <label style="font-weight: bold;" for="colFormLabel" class="col-sm-2 col-form-label">Vision:</label>
 					    <div class="col-sm-10">
-					      <p><%=club.getClubvision() %></p>
+					      <p>
+	  							<% if(club.getClubvision().equals("")){ out.print("Not Available"); }else{ out.print(club.getClubvision()); }  %>
+	  						</p>
 					    </div>
 					  </div>
 					  <div class="form-group row">
 					    <label style="font-weight: bold;" for="colFormLabel" class="col-sm-2 col-form-label">Mission:</label>
 					    <div class="col-sm-10">
-					      <p><%=club.getClubmission() %></p>
+					       <p>
+	  							<% if(club.getClubmission().equals("")){ out.print("Not Available"); }else{ out.print(club.getClubmission()); }  %>
+	  						</p>
 					    </div>
 					  </div>
 					  <div class="form-group row">
 					    <label style="font-weight: bold;" for="colFormLabel" class="col-sm-2 col-form-label">Objectives:</label>
 					    <div class="col-sm-10">
-					      <p><%=club.getClubobjectives() %></p>
+					      <p>
+	  							<% if(club.getClubobjectives().equals("")){ out.print("Not Available"); }else{ out.print(club.getClubobjectives()); }  %>
+	  						</p>
 					    </div>
 					  </div>
 					  <div class="form-group row">
 					    <label style="font-weight: bold;" for="colFormLabel" class="col-sm-2 col-form-label">Staff Co-ordinators:</label>
 					    <div class="col-sm-10">
-					      <p><%=club.getClubstaff() %></p>
+					    <p>
+	  							<% if(club.getClubstaff().equals("")){ out.print("Not Available"); }else{ out.print(club.getClubstaff()); }  %>
+	  						</p>
 					    </div>
 					  </div>
 
 					  <div class="seperator">Social Media Handles</div><br/>
 					  <div class="form-group row">
-					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></label>
+					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i style="color: #e75480;" class="fa fa-instagram fa-2x" aria-hidden="true"></i></label>
 					    <div class="col-sm-10">
-					      <p><%=club.getInstagramlink() %></p>
+					    	<p >
+	  							<% if(club.getInstagramlink().equals("")){ out.print("Not Available"); }else{ %>
+	  							<a href="<%=club.getInstagramlink() %>" target="_blank">
+	  							<span style="color: #50d1c0;"><%=club.getInstagramlink() %></span>
+	  							</a><%} %>
+	  						</p>  
 					    </div>
 					  </div>
 					  <div class="form-group row">
-					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></label>
+					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i style="color: #00008B;" class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></label>
 					    <div class="col-sm-10">
-					      <p><%=club.getTwitterlink() %></p>
+					      <p>
+	  							<% if(club.getLinkedinlink().equals("")){ out.print("Not Available"); }else{ %>
+	  							<a href="<%=club.getLinkedinlink() %>" target="_blank">
+	  							<span style="color: #50d1c0;"><%=club.getLinkedinlink() %></span>
+	  							</a><%} %>
+	  						</p>
 					    </div>
 					  </div>
 					  <div class="form-group row">
-					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></label>
+					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i style="color: #87ceff;" class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></label>
 					    <div class="col-sm-10">
-					      <p><%=club.getFacebooklink() %></p>
+					      <p>
+	  							<% if(club.getTwitterlink().equals("")){ out.print("Not Available"); }else{ %>
+	  							<a href="<%=club.getTwitterlink() %>" target="_blank">
+	  							<span style="color: #50d1c0;"><%=club.getTwitterlink() %></span>
+	  							</a><%} %>
+	  						</p>
 					    </div>
 					  </div>
 					  <div class="form-group row">
-					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></label>
+					    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><i style="color: #00008B;" class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></label>
 					    <div class="col-sm-10">
-					      <p><%=club.getLinkedinlink() %></p>
+					      <p>
+	  							<% if(club.getFacebooklink().equals("")){ out.print("Not Available"); }else{ %>
+	  							<a href="<%=club.getFacebooklink() %>" target="_blank">
+	  							<span style="color: #50d1c0;"><%=club.getFacebooklink() %></span>
+	  							</a><%} %>
+	  						</p>
 					    </div>
 					  </div>
 		        	 <div class="form-group row">
@@ -196,8 +238,8 @@
 		      </div>
 		      
 		      <div class="modal-footer">
-		      	<abb title="Edit Details"><a style="color: black;" href="editclub?id=<%=club.getClubid()%>"><i class="fa fa-pencil fa-2x" aria-hidden="true"></i> </a></abb>&nbsp;
-		      	<abb title="Delete Club"><a style="color: black;" href="deleteclub?id=<%=club.getClubid()%>"><i class="fa fa-trash fa-2x" aria-hidden="true"></i> </a></abb> 
+		      	<a href="editclub?id=<%=club.getClubid()%>"><i style="color: black;" class="fa fa-pencil fa-2x" aria-hidden="true"></i> </a>&nbsp;
+		      	<a href="deleteclub?id=<%=club.getClubid()%>"><i style="color: black;" class="fa fa-trash fa-2x" aria-hidden="true"></i> </a>
 		      </div>
 		    </div>
 		  </div>
@@ -244,7 +286,7 @@
 					    <label for="colFormLabelLg" class="col-sm-2 col-form-label">Club Icon<span class="required">*</span></label>
 					    <div class="col-sm-10">
 						    <label class=newbtn>
-						       <img id="preview" class="rounded-circle" src="images/defaultClubIcon.png">
+						       <img id="preview" class="rounded-circle" src="images/defaultClubIcon.jpg">
 						       <input id="pic" class="pis" name="clubicon" onchange="readURL(this);" type="file" >
 						    </label>
 					    </div>
@@ -252,7 +294,7 @@
 					  <div class="form-group row">
 					    <label for="colFormLabelLg" class="col-sm-2 col-form-label">Acronym<span class="required">*</span></label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control form-control-lg requiredField" name="clubacronym" placeholder="Club's Short name" required="required">
+					      <input type="text" class="form-control form-control-lg requiredField" name="clubacronym" id="acronym" placeholder="Club's Short name" required="required">
 					    </div>
 					  </div>
 					  <div class="form-group row">
@@ -288,9 +330,9 @@
 					    </div>
 					  </div>
 					  <div class="form-group row">
-					    <label for="colFormLabel" class="col-sm-2 col-form-label">Staff Co-ordinators<span class="required">*</span></label>
+					    <label for="colFormLabel" class="col-sm-2 col-form-label">Staff Co-ordinators</label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control requiredField" name="clubstaff" placeholder="Staff Coordinators Names" required="required">
+					      <input type="text" class="form-control" name="clubstaff" placeholder="Staff Coordinators Names" required="required">
 					    </div>
 					  </div>
 					  
@@ -360,6 +402,22 @@ $(document).ready(function() {
 
 //check if fields are not empty in create club form	
     $('#submitbtn').click(function(e) {
+    	
+    	//validate for alphabets input only
+    	$('#acronym').keypress(function (e) {
+            var regex = new RegExp("^[a-zA-Z]+$"); //^[a-zA-Z]+$
+            var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+            if (regex.test(str)) {
+                return true;
+            }
+            else
+            {
+            e.preventDefault();
+            alert('Please Enter valid Value');
+            return false;
+            }
+        });
+    	
     	var flag=0;			
     	$('.requiredField').each(function(index){
     		if($(this).val()==''){

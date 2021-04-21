@@ -97,6 +97,29 @@ public class ClubDao
 		}
 	}
 	
+	public Long countAllClubs()
+	{
+		try
+		{
+			ConnectionDao.logActivity("ClubDao countAllClubs(): ");
+			Connection con= ConnectionDao.getConnectionClubs();
+			PreparedStatement pt= con.prepareStatement("select count(*) as totalcount from club where isdeleted=?");
+			pt.setInt(1, 0);
+			ResultSet rs= pt.executeQuery();
+			
+			rs.next();
+			long clubsCount= rs.getLong("totalcount");
+			ConnectionDao.logActivity("countAllClubs(): "+clubsCount);
+
+			con.close();
+			return clubsCount; 
+		}
+		catch(Exception e)
+		{
+			ConnectionDao.logActivity("ClubDao countAllClubs() Exception: "+e);
+			return null;
+		}
+	}
 
 	public byte[] getIcon(int id) 
 	{
@@ -222,6 +245,41 @@ public class ClubDao
 		{
 			strError=""+e;
 			ConnectionDao.logActivity("ClubDao editClubDetails() Exception: "+e);
+			return strError;
+		}
+	}
+
+	public String editClubDetailsWithoutImage(ClubEntity club) 
+	{
+		String strError="";
+		try
+		{
+			ConnectionDao.logActivity("ClubDao editClueditClubDetailsWithoutImagebDetails(): "+club);
+			Connection con= ConnectionDao.getConnectionClubs();
+			PreparedStatement pt= con.prepareStatement("update club set acronym=?, name=?, description=?, vision=?, mission=?, objectives=?, staff=?, instagramlink=?, twitterlink=?, facebooklink=?, linkedinlink=?, categories=? where id=?");
+			//id column is auto-increment
+			pt.setString(1, club.getClubacronym());
+			pt.setString(2, club.getClubname());
+			pt.setString(3, club.getClubdescription());
+			pt.setString(4, club.getClubvision());
+			pt.setString(5, club.getClubmission());
+			pt.setString(6, club.getClubobjectives());
+			pt.setString(7, club.getClubstaff());
+			pt.setString(8, club.getInstagramlink());
+			pt.setString(9, club.getTwitterlink());
+			pt.setString(10, club.getFacebooklink());
+			pt.setString(11, club.getLinkedinlink());
+			pt.setString(12, club.getCategories());
+			pt.setInt(13, club.getClubid());
+			int i= pt.executeUpdate();
+			ConnectionDao.logActivity("ClubDao editClubDetailsWithoutImage(): "+i);
+			return strError;
+			
+		}
+		catch(Exception e)
+		{
+			strError=""+e;
+			ConnectionDao.logActivity("ClubDao editClubDetailsWithoutImage() Exception: "+e);
 			return strError;
 		}
 	}

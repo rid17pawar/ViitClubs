@@ -5,13 +5,17 @@ body{
 }
 
 /* navbar */
-.custom-navbar{
-	background: rgba(28, 27, 94, 1);
-	color: #fff;
+.navbar{
+	background: rgba(28, 27, 94, 1) !important;
+	color: #fff !important;
 }
 
 .navbar-brand{
 	font-size: 30px;
+}
+
+.nav-item{
+	padding: 10px 10px;
 }
 
 span{
@@ -19,7 +23,7 @@ span{
 }
 
 a{
-	color: #fff;
+	color: #fff !important;
 }
 
 a:hover{

@@ -29,19 +29,7 @@ public class EditClubController extends HttpServlet
 			ClubDao d1= new ClubDao();
 			ClubEntity club= new ClubEntity();
 			InputStream istream;
-			
-			Part filepart=req.getPart("clubicon");
-			if(filepart.getSize()!=0)
-			{
-				ConnectionDao.logActivity("EditClubController:  filepart: "+filepart.getName()+", "+filepart.getSize()+", "+filepart.getContentType());
-				istream= filepart.getInputStream();
-			}
-			else
-			{
-				//File imageFile= new File("/images/defaultClubIcon.png");
-				istream= getServletContext().getResourceAsStream("/images/defaultClubIcon.png");
-				ConnectionDao.logActivity("EditClubController: "+getServletContext());
-			}
+
 			club.setClubid(Integer.parseInt(req.getParameter("id")));
 			club.setClubacronym(req.getParameter("clubacronym"));
 			club.setClubname(req.getParameter("clubname"));
@@ -57,8 +45,26 @@ public class EditClubController extends HttpServlet
 			club.setCategories(req.getParameter("tags-1"));
 			ConnectionDao.logActivity("EditClubController: "+club);
 			
-			String strerror= d1.editClubDetails(club, istream);
-			ConnectionDao.logActivity("EditClubController: "+strerror);
+			String strerror;
+			Part filepart=req.getPart("clubicon");
+			
+			if(filepart.getSize()!=0)
+			{
+				ConnectionDao.logActivity("EditClubController:  filepart: "+filepart.getName()+", "+filepart.getSize()+", "+filepart.getContentType());
+				istream= filepart.getInputStream();
+				
+				strerror= d1.editClubDetails(club, istream);
+				ConnectionDao.logActivity("EditClubController: "+strerror);
+			}
+			else
+			{
+				//File imageFile= new File("/images/defaultClubIcon.png");
+				istream= getServletContext().getResourceAsStream("/images/defaultClubIcon.jpg");
+				ConnectionDao.logActivity("EditClubController: "+getServletContext());
+				
+				strerror= d1.editClubDetailsWithoutImage(club);
+				ConnectionDao.logActivity("EditClubController: "+strerror);
+			}
 			
 			RequestDispatcher rd= req.getRequestDispatcher("admindashboard");
 			req.setAttribute("clubsData", d1.readAllClubsDetails());

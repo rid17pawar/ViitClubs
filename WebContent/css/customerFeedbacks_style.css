@@ -1,0 +1,37 @@
+body{
+	background: #fff;
+}
+
+/* navbar */
+.navbar{
+	background: rgba(28, 27, 94, 1) !important;
+	color: #fff !important;
+}
+
+.navbar-brand{
+	font-size: 30px;
+}
+
+.nav-item{
+	padding: 10px 10px;
+}
+
+span{
+	color: #fff;
+}
+
+a{
+	color: #fff !important;
+}
+
+a:hover{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	transform: translateY(5px);
+}
+
+.showFeedback{
+	margin-top: 150px;
+	position: relative;
+}

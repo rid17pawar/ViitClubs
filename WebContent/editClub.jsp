@@ -127,9 +127,9 @@
 					  </div>
 				  </div>
 				  <div class="form-group row">
-					  <label for="colFormLabel" class="col-sm-2 col-form-label">Staff Co-ordinators<span class="required">*</span></label>
+					  <label for="colFormLabel" class="col-sm-2 col-form-label">Staff Co-ordinators</label>
 					  <div class="col-sm-10">
-					      <input type="text" class="form-control requiredField" name="clubstaff" value="<%=club.getClubstaff() %>" required="required">
+					      <input type="text" class="form-control" name="clubstaff" value="<%=club.getClubstaff() %>" required="required">
 					  </div>
 				  </div>
 	

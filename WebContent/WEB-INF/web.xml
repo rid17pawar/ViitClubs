@@ -2,7 +2,6 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
   <display-name>ViitClubs</display-name>
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
   
@@ -43,5 +42,51 @@
 		<servlet-name>editClub</servlet-name>
 		<url-pattern>/editclubview</url-pattern>
 	</servlet-mapping>
-  
+  	      
+ 	<servlet>
+		<servlet-name>showfeedbacks</servlet-name>
+		<jsp-file>/customerFeedbacks.jsp</jsp-file>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>showfeedbacks</servlet-name>
+		<url-pattern>/viewcustomerfeedbacks</url-pattern>
+	</servlet-mapping>	
+	
+ 	<servlet>
+		<servlet-name>showwebsite</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>showwebsite</servlet-name>
+		<url-pattern>/website</url-pattern>
+	</servlet-mapping> 
+    
+ 	<servlet>
+		<servlet-name>showclub</servlet-name>
+		<jsp-file>/clubDetails.jsp</jsp-file>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>showclub</servlet-name>
+		<url-pattern>/viewshowclubdetails</url-pattern>
+	</servlet-mapping> 
+      
+ 	<servlet>
+		<servlet-name>showreasons</servlet-name>
+		<jsp-file>/reasonsToJoinClub.jsp</jsp-file>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>showreasons</servlet-name>
+		<url-pattern>/viewreasonstojoinclub</url-pattern>
+	</servlet-mapping> 
+	      
+ 	<servlet>
+		<servlet-name>showaboutus</servlet-name>
+		<jsp-file>/aboutus.jsp</jsp-file>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>showaboutus</servlet-name>
+		<url-pattern>/viewaboutus</url-pattern>
+	</servlet-mapping> 
+
+	
 </web-app>
