@@ -1,7 +1,5 @@
 # College Clubs Website  
 
-### _YouTube Video Link: [https://youtu.be/SwE4mxQxhEI](https://youtu.be/SwE4mxQxhEI)_
-
 ## Description-
    In this Project we aim to help newly admitted students in getting information regarding our college clubs at one place. Students can join clubs as per their interests and passion. This will help them to explore themselves as well as develop their softskills and expand their network.
    
@@ -31,14 +29,34 @@
 
 ## Snapshots:
 
-1. Homepage
+1. Website
 
-![Homepage](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/loginpg.png)
+![Website_Header](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_1.png)
+
+![Website_whyJoinUS](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_2.png)
+
+![Website_clubsSlider](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_3.png)
+
+![Website_contactUs](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_4.png)
+
+![Website_footer](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_5.png)
+
+![Website_aboutus1](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/aboutus_1.png)
+
+![Website_aboutus2](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/aboutus_2.png)
 
 
-2. Administrator Dashboard
+2. Admin Panel
 
-![Administrator Dashboard](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/adminAll.png)
+![Admin_login](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_1.png)
+
+![Admin_dashboard](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_2.png)
+
+![Admin_addclub](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_3.png)
+
+![Admin_editDelete](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_4.png)
+
+![Admin_feedbacks](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_5.png)
 
 
 ### Thank You !
