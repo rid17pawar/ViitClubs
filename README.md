@@ -3,7 +3,7 @@
 ### _YouTube Video Link: [https://youtu.be/SwE4mxQxhEI](https://youtu.be/SwE4mxQxhEI)_
 
 ## Description-
-   In this Project we aim to help newly admitted students in getting information regarding our college clubs at one place. Students can join clubs as per their interests and passion. This will help then explore themselves as well as develop their softskills and expand their network.
+   In this Project we aim to help newly admitted students in getting information regarding our college clubs at one place. Students can join clubs as per their interests and passion. This will help them to explore themselves as well as develop their softskills and expand their network.
    
    This project is developed in Java so it provides platform independence, high performance and security.
    
