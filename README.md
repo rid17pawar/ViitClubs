@@ -1,4 +1,4 @@
-# College Clubs Website
+# College Clubs Website  
 
 ### _YouTube Video Link: [https://youtu.be/SwE4mxQxhEI](https://youtu.be/SwE4mxQxhEI)_
 
@@ -36,29 +36,9 @@
 ![Homepage](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/loginpg.png)
 
 
-2. Login page
-
-![Login page](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/loginpg.png)
-
-
-3. Administrator Dashboard
+2. Administrator Dashboard
 
 ![Administrator Dashboard](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/adminAll.png)
-
-
-4. Doctor Dashboard
-
-![Doctor Dashboard - patient observation](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/doctorObservation.png)
-
-
-![Doctor Dashboard - patient prescription](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/doctorPrescription.png)
-
-
-5. Receptionist Dashboard
-
-![Receptionist Dashboard search patient](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/receptionistSearch.png)
-
-![Receptionist Dashboard add patient to opd](https://github.com/rid17pawar/HospitalManagement/blob/master/projectReportPPT/imagesForReadMe/receptionistAdd.png)
 
 
 ### Thank You !
