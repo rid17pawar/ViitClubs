@@ -1,0 +1,13 @@
+create database clubs;
+use clubs;
+show tables; 
+desc clubs;
+
+create table login(username varchar(255), password varchar(255), primary key(username));
+select * from login;
+
+create table club(id int primary key auto_increment, icon mediumblob, acronym varchar(255), name varchar(255), description text, vision text, mission text, objectives text, staff varchar(255), instagramlink varchar(255), twitterlink varchar(255), facebooklink varchar(255), linkedinlink varchar(255), isdeleted int, categories text);
+select * from club;
+
+create table feedback(id int primary key auto_increment, name varchar(255), emailid varchar(255), mobileno bigint, message text);
+select * from feedback;
