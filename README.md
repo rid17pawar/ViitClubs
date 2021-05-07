@@ -1,7 +1,10 @@
 # College Clubs Website  
 
 
-### _YouTube Video Link: [https://youtu.be/aQ8VT92fNGw](https://youtu.be/aQ8VT92fNGw)_
+### _YouTube Website Video Link: [https://youtu.be/aQ8VT92fNGw](https://youtu.be/aQ8VT92fNGw)_
+
+### _YouTube Github Repository Guide Video Link: [https://youtu.be/wqXS6-XVQUk](https://youtu.be/wqXS6-XVQUk)_
+
 
 ## Description-
    In this Project we aim to help newly admitted students in getting information regarding our college clubs at one place. Students can join clubs as per their interests and passion. This will help them to explore themselves as well as develop their softskills and expand their network.
