@@ -16,21 +16,21 @@
 
 ## Technologies Used-
 
-### Front end Technologies:
-  1. HTML
-  2. CSS
-  3. Bootstrap
-  4. jQuery
+### 1. Front end Technologies:
+  - HTML
+  - CSS
+  - Bootstrap
+  - jQuery
   
-### Back end Technologies:
-  1. Servlet 
-  2. JSP
-  3. JDBC
+### 2. Back end Technologies:
+  - Servlet 
+  - JSP
+  - JDBC
   
-### Database:
+### 3. Database:
   - MySQL
   
-### Webserver:
+### 4. Webserver:
   - Apache Tomcat
 
 
@@ -38,6 +38,8 @@
 
 
 1. Website
+
+1.1 Homepage
 
 ![Website_Header](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_1.png)
 
@@ -49,9 +51,13 @@
 
 ![Website_footer](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_5.png)
 
+1.2 Club Details
+
 ![Website_clubs1](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/clubs_1.png)
 
 ![Website_clubs2](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/clubs_2.png)
+
+1.3 About US
 
 ![Website_aboutus1](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/aboutus_1.png)
 
@@ -61,13 +67,23 @@
 
 2. Admin Panel
 
+2.1 Login
+
 ![Admin_login](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_1.png)
+
+2.2 Dashboard
 
 ![Admin_dashboard](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_2.png)
 
+2.3 Create New Club
+
 ![Admin_addclub](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_3.png)
 
+2.4 Edit Club Details
+
 ![Admin_editDelete](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_4.png)
+
+2.5 Students Feedback
 
 ![Admin_feedbacks](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_5.png)
 
