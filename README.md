@@ -11,7 +11,8 @@
    
    This project is developed in Java so it provides platform independence, high performance and security.
    
-   It provides some enhanced features such as: clubs information at one place for students, an easy interface for admin to add, edit or remove clubs. We are mainly focusing on responsiveness, usability and performance of our website.
+   It provides some enhanced features such as: clubs information at one place for students, an easy interface for admin to add, edit or remove clubs. We are mainly focusing on responsiveness, usability and performance of our website. <br>
+   #### PPT Presentation: [click here](https://drive.google.com/file/d/1__jpn55KttJ7TqBFDnsxQ9jD2osVOdoQ/view?usp=sharing)
 
 
 ## Technologies Used-
@@ -41,27 +42,27 @@
 
 1.1 Homepage
 
-![Website_Header](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_1.png)
+![Website_Header](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_1.png)
 
-![Website_whyJoinUS](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_2.png)
+![Website_whyJoinUS](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_2.png)
 
-![Website_clubsSlider](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_3.png)
+![Website_clubsSlider](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_3.png)
 
-![Website_contactUs](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_4.png)
+![Website_contactUs](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_4.png)
 
-![Website_footer](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/homepage_5.png)
+![Website_footer](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_5.png)
 
 1.2 Club Details
 
-![Website_clubs1](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/clubs_1.png)
+![Website_clubs1](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/clubs_1.png)
 
-![Website_clubs2](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/clubs_2.png)
+![Website_clubs2](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/clubs_2.png)
 
 1.3 About US
 
-![Website_aboutus1](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/aboutus_1.png)
+![Website_aboutus1](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/aboutus_1.png)
 
-![Website_aboutus2](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/aboutus_2.png)
+![Website_aboutus2](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/aboutus_2.png)
 
 
 
@@ -69,23 +70,23 @@
 
 2.1 Login
 
-![Admin_login](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_1.png)
+![Admin_login](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_1.png)
 
 2.2 Dashboard
 
-![Admin_dashboard](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_2.png)
+![Admin_dashboard](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_2.png)
 
 2.3 Create New Club
 
-![Admin_addclub](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_3.png)
+![Admin_addclub](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_3.png)
 
 2.4 Edit Club Details
 
-![Admin_editDelete](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_4.png)
+![Admin_editDelete](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_4.png)
 
 2.5 Students Feedback
 
-![Admin_feedbacks](https://github.com/rid17pawar/ViitClubs/blob/main/projectPPT/imagesForReadMe/adminpanel_5.png)
+![Admin_feedbacks](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_5.png)
 
 
 ### Thank You !
