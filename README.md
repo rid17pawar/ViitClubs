@@ -11,8 +11,7 @@
    
    This project is developed in Java so it provides platform independence, high performance and security.
    
-   It provides some enhanced features such as: clubs information at one place for students, an easy interface for admin to add, edit or remove clubs. We are mainly focusing on responsiveness, usability and performance of our website. <br>
-   #### PPT Presentation: [click here](https://drive.google.com/file/d/1__jpn55KttJ7TqBFDnsxQ9jD2osVOdoQ/view?usp=sharing)
+   It provides some enhanced features such as: clubs information at one place for students, an easy interface for admin to add, edit or remove clubs. We are mainly focusing on responsiveness, usability and performance of our website.
 
 
 ## Technologies Used-
