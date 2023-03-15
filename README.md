@@ -14,6 +14,22 @@
    It provides some enhanced features such as: clubs information at one place for students, an easy interface for admin to add, edit or remove clubs. We are mainly focusing on responsiveness, usability and performance of our website.
 
 
+## Steps to configure this web-application on your system:
+
+1. To import this project to your system, you need to first install below softwares: 
+   - Eclipse for Java EE Developers and Tomcat server. You can refer this video: https://youtu.be/9iHKCnxUWqQ
+   - MySQL Workbench. You can refer this video: https://youtu.be/OM4aZJW_Ojs
+
+2. Then get the code from this GitHub repository on your system. You can clone this repository or download as zip file.
+
+3. Choose 'import existing project' option in eclipse then choose 'Dynamic Web project'. 
+<br> You can search for those steps online, just search 'how to import existing servlet project in eclipse'. 
+
+4. Then import the database files in your MySQL database. 
+<br> You can refer this video: https://youtu.be/9icY7xwXbJo
+
+5. You can then run this web-application on your Tomcat server. 
+
 ## Technologies Used-
 
 ### 1. Front end Technologies:
