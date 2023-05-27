@@ -57,51 +57,50 @@
 
 1.1 Homepage
 
-![Website_Header](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_1.png)
+![homepage_1](https://github.com/rid17pawar/ViitClubs/assets/47048717/cb649092-765d-4c60-91cb-9301ed72e9a4)
 
-![Website_whyJoinUS](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_2.png)
+![homepage_2](https://github.com/rid17pawar/ViitClubs/assets/47048717/357b9ac1-bdad-4035-ac2d-f7f415e73e11)
 
-![Website_clubsSlider](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_3.png)
+![homepage_3](https://github.com/rid17pawar/ViitClubs/assets/47048717/f41c2c3b-937c-4c13-be5f-f65e6df86d64)
 
-![Website_contactUs](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_4.png)
+![homepage_4](https://github.com/rid17pawar/ViitClubs/assets/47048717/0e359d0f-3b10-4239-a616-e04ed2b45e8d)
 
-![Website_footer](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/homepage_5.png)
+![homepage_5](https://github.com/rid17pawar/ViitClubs/assets/47048717/27217e9a-f718-4ab8-84a2-845626427c35)
 
 1.2 Club Details
 
-![Website_clubs1](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/clubs_1.png)
+![clubs_1](https://github.com/rid17pawar/ViitClubs/assets/47048717/6fd5fb1a-9cca-4422-8a6b-c21c2e741c1c)
 
-![Website_clubs2](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/clubs_2.png)
+![clubs_2](https://github.com/rid17pawar/ViitClubs/assets/47048717/c9fcb5db-2a63-4971-ab3f-4c37720a8ff5)
 
 1.3 About US
 
-![Website_aboutus1](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/aboutus_1.png)
+![aboutus_1](https://github.com/rid17pawar/ViitClubs/assets/47048717/f4fe5fce-2b79-4758-b472-67e15abca2a5)
 
-![Website_aboutus2](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/aboutus_2.png)
-
+![aboutus_2](https://github.com/rid17pawar/ViitClubs/assets/47048717/c3f84809-36aa-41cb-8d99-ea0f293f1a47)
 
 
 2. Admin Panel
 
 2.1 Login
 
-![Admin_login](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_1.png)
+![adminpanel_1](https://github.com/rid17pawar/ViitClubs/assets/47048717/216e1bbf-3ac1-4873-928e-3e9e5887c1ba)
 
 2.2 Dashboard
 
-![Admin_dashboard](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_2.png)
+![adminpanel_2](https://github.com/rid17pawar/ViitClubs/assets/47048717/da6778d5-c3aa-46d5-94d8-b14b8134fdb7)
 
 2.3 Create New Club
 
-![Admin_addclub](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_3.png)
+![adminpanel_3](https://github.com/rid17pawar/ViitClubs/assets/47048717/e38ac9e3-4dec-4956-baf1-889fe3afbe51)
 
 2.4 Edit Club Details
 
-![Admin_editDelete](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_4.png)
+![adminpanel_4](https://github.com/rid17pawar/ViitClubs/assets/47048717/1b1e06c4-0392-4844-b560-a1577c9d3865)
 
 2.5 Students Feedback
 
-![Admin_feedbacks](https://github.com/rid17pawar/ViitClubs/blob/main/imagesForReadMe/adminpanel_5.png)
+![adminpanel_5](https://github.com/rid17pawar/ViitClubs/assets/47048717/6d600a80-e1f8-4539-a506-0e19181d6d53)
 
 
 ### Thank You !
